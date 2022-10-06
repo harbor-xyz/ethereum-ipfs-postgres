@@ -1,6 +1,6 @@
 {
     "config": {
-      "name": "testnet-one-chain-one-actor"
+      "name": "testnet_test"
     },
     "chains": [
       {
@@ -18,10 +18,11 @@
     ],
     "offChainActors": [
       {
-        "dockerfile": "./offChain/liquidation-bot-1/Dockerfile",
-        "buildPath": "./offChain/liquidation-bot-1",
-        "name": "liquidationBot",
-        "ports": [3000]
+        "image": "postgres",
+        "name": "postgres1337",
+        "ports": [
+          5432
+        ]
       },
       {
         "name": "ipfs",

@@ -1,6 +1,6 @@
-# Harbor Testnet with One Chain and Two Off-Chain Actors
+# Harbor Testnet with One Chain (Ethereum) and Two Off-Chain Actors (IPFS and Postgres)
 
-This is to demosntrate configuring, building and running a sample Testnet with one chain and two actors. Clone this repo and follow along.
+This is to demonstrate configuring, building and running a sample Testnet with one chain (Ethereum) and two public image actors (IPFS and Postgres). Clone this repo and follow along.
 
 ## Copy API Key
 
@@ -81,13 +81,11 @@ These are your running processes and their ports
 ethereum
 3.91.12.13:4000
 
-liquidationBot
-3.91.12.13:3000
+postgres
+3.91.12.13:5432
 
 ipfs
 3.91.12.13:5001
-
-
 ```
 
 You can now interact with them using the endpoints.
