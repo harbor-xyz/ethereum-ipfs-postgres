@@ -18,7 +18,7 @@ Run the command:
 harbor configure keys
 ```
 
-This will ask you to add in your credentials, which includes your User key and Project key. Find them in the app and paste them here.
+This will ask you to add in your credentials, which includes your User Key and Project Key. Find them in the app and paste them here.
 
 ## Start Testnet
 
