@@ -1,7 +1,4 @@
 {
-    "config": {
-      "name": "testnet_test"
-    },
     "chains": [
       {
         "chain": "ethereum",
